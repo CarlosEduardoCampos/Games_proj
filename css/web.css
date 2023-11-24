@@ -83,7 +83,8 @@
             margin-top: -80px;
         }
         .subheadline > img{
-            width: 70px;
+            width: 90px;
+            padding: 10px;
         }
         .menu{
             display: flex;
@@ -144,25 +145,13 @@
         }
         #tec > .tec_container{
             display: grid;
+            border:solid 2px rgba(0, 0, 0, 0.295);
             grid-template-columns: repeat(4, 1fr);
             justify-items: center;
         }
         #tec > .tec_container > .tec_item{
             max-width: 50%;
             margin: 30px;
-        }
-        #games{
-            position: relative;
-            color: #eee;
-            padding: 50px;
-        }
-        .games_container{
-            display: grid;
-            gap: 50px;
-            grid-template-columns: repeat(4, 1fr);
-            justify-items: center;
-            margin: 30px auto;
-            width: 90%;
         }
         #projects{
             background: #eee;
