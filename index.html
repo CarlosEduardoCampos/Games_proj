@@ -21,11 +21,10 @@
   gtag('config', 'G-MT1RW6GMVT');
 </script>
 
-<body onclick="jump()">
+<body>
     <nav class="menu">
         <ul>
             <li><a href="#tec">Tecnologias</a></li>
-            <li><a href="#games">Jogos</a></li>
             <li><a href="#projects">Projetos</a></li>
         </ul>
     </nav>
@@ -47,45 +46,24 @@
             </header>
             <div id="tec">
                 <h3 class="headline"> Tecnologias </h3>
-                <div class="tec_container"></div>
+                <div class="tec_container">
+                    <!-- Conteudo criado por "./js/listTecs.js" -->
+                </div>
             </div>
 
             <div id="projects">
                 <h3 class="headline"> Projetos </h1>
+
                 <div class="projects_container">
-                    <h4 class="subheadline">
-                        <img src="./img/site.png" alt="logo javascript">
-                    </h4>
-    
-                    <a href="./sites/page/index.html" class="item">
-                        <img src="./img/website.png" alt="site pronto">
-                        <p>SoftNouse</p>
-                    </a>
-    
-                    <a href="./sites/climaTempo/src/index.html" class="item">
-                        <img src="./sites/climaTempo/img/snow.png" alt="desenho de uma nuvem de chuva e neve">
-                        <p>Clima</p>
-                    </a>
-    
-                    <a href="./sites/listaTerefas/src/index.html" class="item">
-                        <img src="./img/lista.png" alt="lista e lápis">
-                        <p>Tarefas</p>
-                    </a>
-    
-                    <!-- html padrão para projetos não finalizados
-                    <a href="#" class="item" onclick="naoExiste()">
-                        <img src="./img/block.png" alt="Bloco com simbolo de perguta">
-                        <p>???</p>
-                    </a>
-                    -->
+                    <!-- Conteudo criado por "./js/listProj.js" -->
                 </div>
                 
             </div>
         </section>
     </main>
 
-    <script>
-        
-    </script>
+    <!-- JS para area de tecnologias -->
+    <script src="./js/listTecs.js"></script>
+    <script src="./js/listProj.js"></script>
 </body>
 </html>

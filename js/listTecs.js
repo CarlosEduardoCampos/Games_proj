@@ -1,4 +1,4 @@
-// tag HTML que recebera tag img para cada tecnologia:
+// tag HTML que apresentara as tecnologias:
 const TEC_CONTAINER = document.querySelector('.tec_container');
 
 // Lista do nome dos arquivos de imagem de cada tecnologia:
